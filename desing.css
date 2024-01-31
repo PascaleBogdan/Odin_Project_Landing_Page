@@ -1,5 +1,7 @@
 .body{
-    
+    margin: 0;
+    padding: 0;
+    height: 100vh;
 }
 
 .header{
@@ -32,7 +34,6 @@ display:flex
 
 .links{
     display:inline-block;
-    
     margin-left: 300px;
 }
 
@@ -69,8 +70,6 @@ display:flex
     color: white;
     font-size: 48px;
     margin-left: 40px;
-    
-
 }
 
 .scris2{
@@ -89,16 +88,14 @@ display:flex
     justify-content: center;
     display: flex;
     margin-left:200px;
-    margin-top:55px;
-   
+    margin-top:55px; 
 }
 
 .image{
 flex: 1;
 margin-right: 100px;
 margin-bottom: 10px;
-border-radius: 15px;
-
+border-radius: 10px;
 }
 
 .button{
@@ -154,11 +151,10 @@ border-radius: 15px;
 
   .quote{
    margin-left: 100px;
-   
    margin: auto;
    width: 50%;
    padding: 10px;
-   
+
   }
   .quote{
     color: #1f2937;
@@ -169,4 +165,61 @@ border-radius: 15px;
   
   .quote2{
     margin-left: 500px;
+  }
+
+  .body4{
+    height: 400px;
+  }
+
+  .container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+  }
+  
+
+  .item2{
+    width: 1000px;
+    height: 150px; 
+    border-radius: 10px;
+    margin-top: 100px;
+    background-color:#1f2937
+  }
+
+  .scris5{
+    margin-top: 35px;
+    margin-left: 100px;
+    width: 500px;
+  }
+
+  .button1{
+    margin-left: 100px;
+   color: white;
+   background-color:#1f2937;
+   border: 1px solid white;
+   border-radius: 9px;
+   width: 100px;
+   height: 25px;
+   font-weight: 800;
+  }
+
+  .scris6{
+    color: white;
+    font-weight:600;
+  }
+
+  .footer{
+    height: 50px;
+    background-color: #1f2937;
+  }
+
+  .copy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .scris7{
+    color: white;
+    font-size: 15px;
   }
